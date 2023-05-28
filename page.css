@@ -1,0 +1,102 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .topContainer{
+    padding: 40px;
+    background-color: #f6fcfc;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .dates {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 40px;
+  }
+  
+  .inspiration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 40px;
+  }
+  
+  .inspiration-text {
+    flex: 1;
+    font-size: 18px;
+    color: #fefefe;
+  }
+  
+  .inspiration-photo {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .inspiration-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .biography {
+    font-size: 18px;
+    color: #555;
+    padding: 40px;
+    background: linear-gradient(to right, #f6fcfc, #fff);
+  }
+  .achievements {
+    font-size: 18px;
+    color: #555;
+    padding: 40px;
+    background: linear-gradient(to left, #f6fcfc, #fff);
+  }
+
+  .quotes {
+    font-size: 18px;
+    color: #555;
+    padding: 40px;
+    background: linear-gradient(to right, #f6fcfc, #fff);
+  }
+
+  cite{
+    font-weight: 600;
+  }
+  .legacy {
+    font-size: 18px;
+    color: #555;
+    padding: 40px;
+    background: linear-gradient(to left, #f6fcfc, #fff);
+  }
+  .footerCont{
+    background: linear-gradient(to right, #f6fcfc, #fff);
+    padding-top: 5px;
+  }
+  .hrclass{
+    width: 65%;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    padding: 20px;
+  }
+  
